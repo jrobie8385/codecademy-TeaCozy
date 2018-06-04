@@ -12,6 +12,7 @@ header {
   border-bottom: 1px solid seashell;
   display: flex;
   align-items: center;
+  /*how do I make this header fixed?  "postion: fixed;" is messing up the page. */
 }
 
 header img {
@@ -51,17 +52,26 @@ header nav a {
 }
 
 #mini-pics {
+  width: 1000px;
+  height: 700px;
+  padding-top: 70px;
+  margin: auto;
+  text-align: center;
+}
+
+.flex-container-row-one-items {
+  text-align: center;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+}
+
+.flex-container-row-two-items {
+  display: flex;
+  justify-content: center;
 }
 
 .item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-weight: bold;
-  margin: 20px;
+  padding: 5px;
 }
 
 .item span {
@@ -70,24 +80,53 @@ header nav a {
 
 .item img {
   height: 200px;
-  width: 300px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.item span {
+  display: block;
+  margin-top: 10px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.submain-image-container {
+  display: flex;
+  justify-content: center;
 }
 
 .second-image {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 500px;
   width: 1200px;
+  /*How do I make the "Locations" text closer to the black boxes in the image?*/
+}
+
+.flex-container.items {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .text-box {
-  display: flex;
-  flex-direction: column;
-  align-items: space-between;
+  text-align: center;
+  margin: 15px 20px;
   width: 300px;
   opacity: 1;
   background-color: black;
-  margin
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+}
+
+.copyright {
+  margin-left: 20px;
 }
