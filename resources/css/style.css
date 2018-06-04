@@ -38,7 +38,7 @@ header nav a {
   display: flex;
   align-items: center;
   height: 700px;
-  max-width: 1200px;
+  width: 1200px;
 }
 
 .image-content {
@@ -48,4 +48,36 @@ header nav a {
   flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
+}
+
+.mini-pics {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.mini-pic {
+  height: 200px;
+  width: 300px;
+}
+
+.mini-pic.berryTea {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-berryblitz.jpg");
+  display: flex;
+}
+
+.mini-pic.rumTea {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-spiced-rum.jpg");
+}
+
+.mini-pic.donuts {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-donut.jpg");
+}
+
+.mini-pic.myrtleTea {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-myrtle-ave.jpg");
+}
+
+.mini-pic.bedfordTea {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-bedford-bizarre.jpg");
 }
