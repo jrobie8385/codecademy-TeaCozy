@@ -15,6 +15,7 @@ header {
   justify-content: center;
   position: fixed;
   width: 100%;
+  background-color: black;
 }
 
 header img {
@@ -32,6 +33,7 @@ header nav a {
 }
 
 .main-image-container {
+  padding-top: 70px;
   display: flex;
   justify-content: center;
 }
@@ -106,12 +108,16 @@ header nav a {
   align-items: center;
   height: 500px;
   width: 1200px;
-  /*How do I make the "Locations" text closer to the black boxes in the image?*/
 }
 
 .flex-container.items {
   display: flex;
   flex-wrap: wrap;
+}
+
+#Locations {
+  border: 1px solid white;
+  padding-bottom: 0px;
 }
 
 .text-box {
@@ -120,6 +126,7 @@ header nav a {
   width: 300px;
   opacity: 1;
   background-color: black;
+  border: 1px solid white;
 }
 
 .contact {
