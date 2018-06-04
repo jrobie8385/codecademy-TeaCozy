@@ -50,34 +50,44 @@ header nav a {
   align-items: center;
 }
 
-.mini-pics {
+#mini-pics {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.mini-pic {
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.item span {
+  margin-top: 10px;
+}
+
+.item img {
   height: 200px;
   width: 300px;
 }
 
-.mini-pic.berryTea {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-berryblitz.jpg");
+.second-image {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
   display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 1200px;
 }
 
-.mini-pic.rumTea {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-spiced-rum.jpg");
-}
-
-.mini-pic.donuts {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-donut.jpg");
-}
-
-.mini-pic.myrtleTea {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-myrtle-ave.jpg");
-}
-
-.mini-pic.bedfordTea {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-bedford-bizarre.jpg");
+.text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  width: 300px;
+  opacity: 1;
+  background-color: black;
+  margin
 }
